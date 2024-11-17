@@ -183,6 +183,8 @@ Capture the waveforms and include the results in the final report.
 ![Screenshot 2024-11-06 150250](https://github.com/user-attachments/assets/8fac4b1c-6d94-49ba-9aac-7d5424654334)
 ![Screenshot 2024-11-06 150311](https://github.com/user-attachments/assets/5be03341-b922-4307-b5cf-058904ea9c7c)
 
+
+
 # Conclusion
 
 In this experiment, Moore and Mealy FSMs were successfully designed and simulated to detect the sequence 1011. Both designs worked as expected, with the main difference being that the Moore FSM generated the output based on the current state, while the Mealy FSM generated the output based on both the current state and input. The testbench verified the functionality of both FSMs, demonstrating that the Verilog HDL can effectively model both types of state machines for sequence detection tasks.
